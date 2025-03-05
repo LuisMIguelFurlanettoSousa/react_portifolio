@@ -1,4 +1,4 @@
-import project1 from "../assets/projects/project-1.jpg";
+import API_NODEJS from "../assets/projects/API_NODEJS .png";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
@@ -9,22 +9,23 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2020 - Present",
+    role: "Vendedor / Gerente",
+    company: "Fazendão agropecuária",
+    description: `Atuo principalmente como vendedor, aprimorando minhas habilidades de comunicação, persuasão e proatividade no atendimento ao cliente. Além disso, sou responsável pelo gerenciamento de estoque e processo de compras, garantindo a reposição eficiente de produtos e contribuindo para a organização e crescimento da empresa.`,
+    technologies: ["Proatividade", "Comunicação", "Organização", "Trabalho em equipe"],
   },
 ];
 
 export const PROJECTS = [
-  {
-    title: "E-Commerce Website",
-    image: project1,
+{
+    title: "🛠️ API Segura com Autenticação JWT em Node.js",
+    image: API_NODEJS,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
+      "Projeto onde implementei autenticação segura em uma aplicação Node.js! Inclui registro de usuários com criptografia de senha, autenticação via JWT e proteção de rotas privadas.",
+    technologies: ["Node.js", "Express", "bcrypt", "JWT", "Dotenv", "MongoDB / PostgreSQL"],
+},
+
   {
     title: "Task Management App",
     image: project2,
